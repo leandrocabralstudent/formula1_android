@@ -1,6 +1,6 @@
 package com.leandroid.data.local.implementation
 
-import com.leandroid.data.local.race.LocalRaceStore
+import com.leandroid.data.local.store.LocalRaceStore
 import com.leandroid.data.local.repository.RaceRepository
 import com.leandroid.domain.model.Race
 import io.reactivex.Completable

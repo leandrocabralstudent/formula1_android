@@ -1,4 +1,4 @@
-package com.leandroid.data.local.race
+package com.leandroid.data.local.store
 
 import com.leandroid.data.local.dao.RaceDao
 import com.leandroid.domain.model.Race
