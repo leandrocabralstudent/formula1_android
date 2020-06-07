@@ -1,10 +1,8 @@
 package com.leandroid.data.network.service
 
 import com.leandroid.domain.model.Race
-import io.reactivex.Maybe
-import retrofit2.http.GET
+import io.reactivex.Single
 
 interface RaceService {
-    @GET("/race")
-    fun load(): Maybe<Race>
+    fun getRace(): Single<List<Race>>
 }
