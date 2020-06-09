@@ -13,4 +13,6 @@ class NavigationBottom
     init {
         inflate(context, R.layout.widget_navigation_bottom, this)
     }
+
+
 }

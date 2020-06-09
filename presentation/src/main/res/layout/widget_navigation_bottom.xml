@@ -6,48 +6,56 @@
     tools:layout_width="match_parent"
     tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
 
+    <View
+        android:id="@+id/line_top"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#20000000"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <RelativeLayout
         android:id="@+id/home"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
         android:padding="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/line_top">
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/iv_formula1"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
             android:layout_centerInParent="true"
-            android:src="@drawable/icon_f1" />
+            android:src="@drawable/icon_championship" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/iv_formula1"
             android:layout_centerHorizontal="true"
-            android:text="Campeonato"
-            android:textColor="#000" />
+            android:text="F1"
+            android:textColor="#000"
+            android:textSize="12sp" />
 
     </RelativeLayout>
 
     <RelativeLayout
         android:id="@+id/race"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
         android:padding="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/champion"
         app:layout_constraintStart_toEndOf="@+id/home"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/line_top" >
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/iv_race"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
             android:layout_centerInParent="true"
-            android:src="@drawable/icon_f1" />
+            android:src="@drawable/icon_race" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -55,26 +63,27 @@
             android:layout_below="@+id/iv_race"
             android:layout_centerHorizontal="true"
             android:text="Corrida"
+            android:textSize="12sp"
             android:textColor="#000" />
 
     </RelativeLayout>
 
     <RelativeLayout
         android:id="@+id/champion"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
         android:padding="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/more"
         app:layout_constraintStart_toEndOf="@+id/race"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/line_top">
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/iv_champion"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
             android:layout_centerInParent="true"
-            android:src="@drawable/icon_f1" />
+            android:src="@drawable/icon_champion" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -82,31 +91,33 @@
             android:layout_below="@+id/iv_champion"
             android:layout_centerHorizontal="true"
             android:text="Campeões"
+            android:textSize="12sp"
             android:textColor="#000" />
 
     </RelativeLayout>
 
     <RelativeLayout
         android:id="@+id/more"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
         android:padding="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/line_top">
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/iv_more"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
             android:layout_centerInParent="true"
-            android:src="@drawable/icon_f1" />
+            android:src="@drawable/icon_more" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/iv_more"
             android:layout_centerHorizontal="true"
+            android:textSize="12sp"
             android:text="Mais"
             android:textColor="#000" />
 
