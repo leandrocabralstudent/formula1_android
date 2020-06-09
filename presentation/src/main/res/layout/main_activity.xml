@@ -14,25 +14,14 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <ScrollView
-            android:id="@+id/sv_container"
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragment_main"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             app:layout_constraintBottom_toTopOf="@+id/navigation_bottom"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/toolbar_header">
-
-            <androidx.fragment.app.FragmentContainerView
-                android:id="@+id/fragment_main"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintBottom_toBottomOf="parent" />
-
-        </ScrollView>
+            app:layout_constraintTop_toBottomOf="@+id/toolbar_header" />
 
         <com.leandroid.formula1.widget.NavigationBottom
             android:id="@+id/navigation_bottom"
