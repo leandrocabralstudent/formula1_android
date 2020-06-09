@@ -14,10 +14,10 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <RelativeLayout
-        android:id="@+id/home"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:padding="8dp"
+        android:id="@+id/navigation_bottom_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/line_top">
@@ -26,7 +26,7 @@
             android:id="@+id/iv_formula1"
             android:layout_width="24dp"
             android:layout_height="24dp"
-            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
             android:src="@drawable/icon_championship" />
 
         <TextView
@@ -34,6 +34,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/iv_formula1"
             android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
             android:text="F1"
             android:textColor="#000"
             android:textSize="12sp" />
@@ -41,20 +42,20 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:id="@+id/race"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:padding="8dp"
+        android:id="@+id/navigation_bottom_race"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/champion"
-        app:layout_constraintStart_toEndOf="@+id/home"
+        app:layout_constraintEnd_toStartOf="@+id/navigation_bottom_champion"
+        app:layout_constraintStart_toEndOf="@+id/navigation_bottom_home"
         app:layout_constraintTop_toBottomOf="@+id/line_top" >
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/iv_race"
             android:layout_width="24dp"
             android:layout_height="24dp"
-            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
             android:src="@drawable/icon_race" />
 
         <TextView
@@ -62,6 +63,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/iv_race"
             android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
             android:text="Corrida"
             android:textSize="12sp"
             android:textColor="#000" />
@@ -69,20 +71,20 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:id="@+id/champion"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:padding="8dp"
+        android:id="@+id/navigation_bottom_champion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/more"
-        app:layout_constraintStart_toEndOf="@+id/race"
+        app:layout_constraintEnd_toStartOf="@+id/navigation_bottom_more"
+        app:layout_constraintStart_toEndOf="@+id/navigation_bottom_race"
         app:layout_constraintTop_toBottomOf="@+id/line_top">
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/iv_champion"
             android:layout_width="24dp"
             android:layout_height="24dp"
-            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
             android:src="@drawable/icon_champion" />
 
         <TextView
@@ -90,6 +92,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/iv_champion"
             android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
             android:text="Campeões"
             android:textSize="12sp"
             android:textColor="#000" />
@@ -97,10 +100,10 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:id="@+id/more"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:padding="8dp"
+        android:id="@+id/navigation_bottom_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/line_top">
@@ -109,7 +112,7 @@
             android:id="@+id/iv_more"
             android:layout_width="24dp"
             android:layout_height="24dp"
-            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
             android:src="@drawable/icon_more" />
 
         <TextView
@@ -117,6 +120,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/iv_more"
             android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
             android:textSize="12sp"
             android:text="Mais"
             android:textColor="#000" />
