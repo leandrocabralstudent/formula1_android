@@ -1,6 +1,5 @@
 package com.leandroid.formula1.home
 
-import androidx.lifecycle.ViewModelProviders
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -10,8 +9,6 @@ import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.viewModels
 import com.leandroid.formula1.R
 import com.leandroid.formula1.databinding.HomeFragmentBinding
-import com.leandroid.formula1.databinding.MoreFragmentBinding
-import com.leandroid.formula1.more.MoreViewModel
 
 class HomeFragment : Fragment() {
 

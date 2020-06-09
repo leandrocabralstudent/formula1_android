@@ -24,8 +24,8 @@
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/iv_formula1"
-            android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
             android:layout_centerHorizontal="true"
             android:src="@drawable/icon_championship" />
 
@@ -34,7 +34,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/iv_formula1"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="4dp"
             android:text="F1"
             android:textColor="#000"
             android:textSize="12sp" />
@@ -53,8 +53,8 @@
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/iv_race"
-            android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
             android:layout_centerHorizontal="true"
             android:src="@drawable/icon_race" />
 
@@ -63,7 +63,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/iv_race"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="4dp"
             android:text="Corrida"
             android:textSize="12sp"
             android:textColor="#000" />
@@ -82,8 +82,8 @@
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/iv_champion"
-            android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
             android:layout_centerHorizontal="true"
             android:src="@drawable/icon_champion" />
 
@@ -92,7 +92,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/iv_champion"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="4dp"
             android:text="Campeões"
             android:textSize="12sp"
             android:textColor="#000" />
@@ -110,8 +110,8 @@
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/iv_more"
-            android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
             android:layout_centerHorizontal="true"
             android:src="@drawable/icon_more" />
 
@@ -120,11 +120,18 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/iv_more"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="4dp"
             android:textSize="12sp"
             android:text="Mais"
             android:textColor="#000" />
 
     </RelativeLayout>
+
+    <View
+        android:id="@+id/line_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#20000000"
+        app:layout_constraintBottom_toBottomOf="parent" />
 
 </merge>
