@@ -28,10 +28,8 @@ class HomeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.cardTop.setImage("https://jmonline.com.br/userfiles/image/2020/05/10/Lewis-Hamilton-interna.jpg")
-        binding.cardTop.setName("Lewis Hamilton")
-        binding.cardTop.setPoint("577 pts")
-
-
+        binding.cardTop.setName("1º Lewis Hamilton")
+        binding.cardTop.setPoint("577 pts -  Mercedes")
 
     }
 
