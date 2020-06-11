@@ -27,6 +27,12 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        binding.cardTop.setImage("https://jmonline.com.br/userfiles/image/2020/05/10/Lewis-Hamilton-interna.jpg")
+        binding.cardTop.setName("Lewis Hamilton")
+        binding.cardTop.setPoint("577 pts")
+
+
+
     }
 
 }

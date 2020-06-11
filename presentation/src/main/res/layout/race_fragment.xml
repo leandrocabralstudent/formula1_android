@@ -12,8 +12,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_height="match_parent"
         android:layout_width="match_parent"
-        android:background="#FF2200"
-        >
+        android:background="@color/backgroundScreen" >
 
         <TextView
             android:layout_width="wrap_content"
