@@ -31,6 +31,8 @@ class HomeFragment : Fragment() {
         binding.cardTop.setName("1º Lewis Hamilton")
         binding.cardTop.setPoint("577 pts -  Mercedes")
 
+
+
     }
 
 }

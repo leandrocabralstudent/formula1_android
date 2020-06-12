@@ -31,7 +31,8 @@
         <com.leandroid.formula1.widget.cardTableView.CardTableView
             android:id="@+id/card_table"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
