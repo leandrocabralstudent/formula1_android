@@ -10,10 +10,14 @@
             type="com.leandroid.formula1.home.HomeViewModel" />
     </data>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/backgroundScreen" >
+        android:background="@color/backgroundScreen">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
         <com.leandroid.formula1.widget.CardTopView
             android:id="@+id/card_top"
@@ -34,5 +38,7 @@
             app:layout_constraintTop_toBottomOf="@+id/card_top" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
 
 </layout>

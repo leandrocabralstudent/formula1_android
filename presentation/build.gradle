@@ -80,4 +80,5 @@ dependencies {
 
     //Module
     implementation project(':data')
+    implementation project(':domain')
 }
