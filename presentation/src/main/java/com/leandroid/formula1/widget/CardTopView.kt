@@ -22,18 +22,18 @@ class CardTopView
         inflate(context, R.layout.widget_card_top, this)
     }
 
-    fun setName(name: String) {
+    fun setName(name: String?) {
         nameView.text = name
     }
 
-    fun setPoint(point: String) {
+    fun setPoint(point: String?) {
         pointView.text = point
     }
 
-    fun setImage(picutre: String) {
+    fun setImage(picture: String?) {
         Glide
             .with(context)
-            .load(picutre)
+            .load(picture)
             .centerCrop()
             .placeholder(R.drawable.icon_user)
             .into(pictureView)

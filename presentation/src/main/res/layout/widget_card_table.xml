@@ -9,15 +9,11 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:cardElevation="6dp"
         app:cardUseCompatPadding="true">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingTop="8dp"
-            android:paddingLeft="8dp"
-            android:paddingRight="8dp">
+            android:layout_height="wrap_content">
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/tv_position"
@@ -54,13 +50,12 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rv_card_table"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
+                android:layout_height="500dp"
                 android:layout_marginTop="10dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tv_position"
-                tools:listitem="@layout/widget_card_table_item"
-                />
+                tools:listitem="@layout/widget_card_table_item" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

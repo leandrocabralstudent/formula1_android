@@ -18,6 +18,7 @@ class CardTableViewAdapter(var pilots: List<Pilot>)
 
     override fun onBindViewHolder(cardTableViewHolder: CardTableViewHolder, i: Int) {
         val name = cardTableViewHolder.vDescricao
+        name.text = pilots[i].name
 
     }
 
@@ -31,7 +32,6 @@ class CardTableViewAdapter(var pilots: List<Pilot>)
         var vDescricao: TextView
         init {
             vDescricao = v.findViewById(R.id.tv_name)
-
         }
     }
 }
