@@ -8,4 +8,5 @@ import com.leandroid.domain.model.Race
 abstract class AppDatabase : RoomDatabase() {
     abstract fun raceDao(): RaceDao
     abstract fun pilotDao(): PilotDao
+    abstract fun championDao(): ChampionDao
 }

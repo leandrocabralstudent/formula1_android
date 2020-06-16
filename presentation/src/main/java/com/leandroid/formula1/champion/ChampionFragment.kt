@@ -1,26 +1,23 @@
 package com.leandroid.formula1.champion
 
-import androidx.lifecycle.ViewModelProviders
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
-import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.leandroid.domain.model.Champion
-import com.leandroid.domain.model.Race
 import com.leandroid.formula1.R
 import com.leandroid.formula1.databinding.ChampionFragmentBinding
-import com.leandroid.formula1.databinding.HomeFragmentBinding
-import com.leandroid.formula1.home.HomeViewModel
-import com.leandroid.formula1.race.RaceAdapter
+import io.reactivex.android.schedulers.AndroidSchedulers
+import io.reactivex.schedulers.Schedulers
+import org.koin.android.viewmodel.ext.android.viewModel
 
 class ChampionFragment : Fragment() {
 
     private lateinit var binding: ChampionFragmentBinding
-    private  val viewModel : ChampionViewModel by viewModels()
+    private  val viewModel : ChampionViewModel by viewModel()
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -33,6 +30,15 @@ class ChampionFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        viewModel.getChampion()
+            .subscribeOn(Schedulers.io())
+            .observeOn(AndroidSchedulers.mainThread())
+            .doOnSuccess { champions ->
+                mountList(champions)
+            }.doOnError { error ->
+
+            }.subscribe()
 
     }
 
