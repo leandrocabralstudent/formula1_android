@@ -1,14 +1,43 @@
 package com.leandroid.formula1.splash
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
+import android.os.CountDownTimer
+import android.view.animation.Animation
+import android.view.animation.AnimationUtils
+import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
+import com.leandroid.formula1.MainActivity
 import com.leandroid.formula1.R
 
 class SplashScreenActivity : AppCompatActivity() {
 
+    lateinit var rotateAnimation: Animation
+    private val splashScreenLogo by lazy<TextView> { findViewById(R.id.iv_logo) }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash_screen)
+        rotateAnimation()
+        closeSplashScreen()
+    }
+
+    private fun rotateAnimation() {
+        rotateAnimation = AnimationUtils.loadAnimation(this, R.anim.rotate)
+        splashScreenLogo.startAnimation(rotateAnimation)
+    }
+
+    private fun closeSplashScreen() {
+        object : CountDownTimer(50000, 1000) {
+            override fun onTick(millisUntilFinished: Long) {
+
+            }
+
+            override fun onFinish() {
+                val intent = Intent(this@SplashScreenActivity, MainActivity::class.java)
+                startActivity(intent)
+                finish()
+            }
+        }.start()
     }
 }
