@@ -6,7 +6,6 @@ import android.os.CountDownTimer
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import android.widget.ImageView
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.leandroid.formula1.MainActivity
 import com.leandroid.formula1.R
