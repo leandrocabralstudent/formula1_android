@@ -25,6 +25,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/leandroid/domain/model/Champion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/leandroid/domain/model/Champion.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/presentation/src/main/java/com/leandroid/formula1/champion/ChampionAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/java/com/leandroid/formula1/champion/ChampionAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/src/main/res/layout/champion_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/res/layout/champion_fragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/src/main/res/layout/home_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/res/layout/home_fragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/src/main/res/layout/more_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/res/layout/more_fragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/src/main/res/layout/race_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/res/layout/race_fragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/src/main/res/layout/widget_card_top.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/res/layout/widget_card_top.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
