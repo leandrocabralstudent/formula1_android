@@ -17,8 +17,15 @@ class CardTableViewAdapter(var pilots: List<Pilot>)
     }
 
     override fun onBindViewHolder(cardTableViewHolder: CardTableViewHolder, i: Int) {
+        val position = cardTableViewHolder.vPosition
         val name = cardTableViewHolder.vDescricao
+        val point = cardTableViewHolder.vPoint
+        val team = cardTableViewHolder.vTeam
+
+        position.text = pilots[i].id.toString()
         name.text = pilots[i].name
+        point.text = pilots[i].point.toString()
+        team.text = pilots[i].team
     }
 
     override fun onCreateViewHolder(viewGroup: ViewGroup, i: Int): CardTableViewHolder {
@@ -28,9 +35,17 @@ class CardTableViewAdapter(var pilots: List<Pilot>)
     }
 
     class CardTableViewHolder(v: View) : ViewHolder(v) {
+        var vPosition: TextView
         var vDescricao: TextView
+        var vPoint: TextView
+        var vTeam: TextView
+
         init {
+            vPosition = v.findViewById(R.id.tv_position)
             vDescricao = v.findViewById(R.id.tv_name)
+            vTeam = v.findViewById(R.id.tv_team)
+            vPoint = v.findViewById(R.id.tv_point)
+
         }
     }
 }
