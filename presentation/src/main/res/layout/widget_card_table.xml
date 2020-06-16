@@ -20,33 +20,37 @@
                 android:id="@+id/tv_position"
                 android:layout_width="70dp"
                 android:layout_height="wrap_content"
-                android:text="Posição"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent" />
+                android:fontFamily="@font/roboto_bold"
+                android:text="@string/title_position_card_table"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/tv_point"
                 android:layout_width="70dp"
                 android:layout_height="wrap_content"
-                android:text="Pontos"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintLeft_toRightOf="@+id/tv_position" />
+                android:fontFamily="@font/roboto_bold"
+                android:text="@string/title_point_card_table"
+                app:layout_constraintLeft_toRightOf="@+id/tv_position"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/tv_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Piloto"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintLeft_toRightOf="@+id/tv_point" />
+                android:fontFamily="@font/roboto_bold"
+                android:text="@string/title_pilot_card_table"
+                app:layout_constraintLeft_toRightOf="@+id/tv_point"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/tv_team"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Equipe"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintRight_toRightOf="parent" />
+                android:fontFamily="@font/roboto_bold"
+                android:text="@string/title_team_card_table"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rv_card_table"

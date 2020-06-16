@@ -13,6 +13,5 @@ class HomeViewModel(
 
     fun getPilot(): Single<List<Pilot>> {
         return remotePiloService.getPilot()
-
     }
 }
