@@ -16,6 +16,12 @@ class LocalPilotStore (private val pilotDao: PilotDao){
         }
     }
 
+    fun addPilots(pilots: List<Pilot>): Completable {
+        return Completable.fromAction {
+            pilotDao.insertList(pilots)
+        }
+    }
+
     fun updatePilot(pilot: Pilot): Completable {
         return Completable.fromAction {
             pilotDao.update(pilot)

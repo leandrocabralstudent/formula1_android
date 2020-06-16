@@ -76,6 +76,14 @@ val dataModule = module {
         get<AppDatabase>().raceDao()
     }
 
+    single {
+        get<AppDatabase>().pilotDao()
+    }
+
+    single {
+        get<AppDatabase>().championDao()
+    }
+
     //region Race
     single {
         LocalRaceStore(get())
@@ -94,15 +102,13 @@ val dataModule = module {
         LocalPilotStore(get())
     }
 
-    single<PilotService> {
-        PilotServiceImpl(get())
-    }
-
     single<PilotRepository> {
         PilotRepositoryImpl(get())
     }
 
-    single { PilotServiceImpl(get()) }
+    single<PilotService> {
+        PilotServiceImpl(get())
+    }
 
     //region champion
     single {

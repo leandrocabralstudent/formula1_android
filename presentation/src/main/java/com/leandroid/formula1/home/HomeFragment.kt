@@ -15,7 +15,7 @@ import org.koin.android.viewmodel.ext.android.viewModel
 class HomeFragment : Fragment() {
 
     private lateinit var binding: HomeFragmentBinding
-    private  val viewModel: HomeViewModel by viewModel()
+    private val viewModel: HomeViewModel by viewModel()
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -35,10 +35,21 @@ class HomeFragment : Fragment() {
             .doOnSuccess { pilots ->
                 val pilotLeader = pilots.first()
                 binding.cardTop.setImage(pilotLeader.photo)
-                binding.cardTop.setName("1º " + pilotLeader.name)
-                binding.cardTop.setPoint(pilotLeader.point.toString() + " pts -  Mercedes")
+                binding.cardTop.setName(
+                    resources.getString(
+                        R.string.name_widget_card_top,
+                        pilotLeader.name
+                    )
+                )
 
-                val pilotsOther = pilots.filter { id > 1}
+                binding.cardTop.setPoint(
+                    resources.getString(
+                        R.string.point_widget_card_top,
+                        pilotLeader.point, pilotLeader.team
+                    )
+                )
+
+                val pilotsOther = pilots.filter { id > 1 }
                 binding.cardTable.mountList(pilotsOther)
 
             }.doOnError { error ->

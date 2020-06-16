@@ -13,5 +13,6 @@ data class Pilot(
     val flag: String?,
     val photo:String?,
     val point:Int?,
+    val team:String?,
     val date:String?
 )

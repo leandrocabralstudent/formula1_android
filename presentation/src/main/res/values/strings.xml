@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Formula1</string>
 
-    <string name="name_leader_widget_card_top">1° %s</string>
+    <string name="name_widget_card_top">1° %s</string>
+    <string name="point_widget_card_top">%d pts - %s</string>
 </resources>

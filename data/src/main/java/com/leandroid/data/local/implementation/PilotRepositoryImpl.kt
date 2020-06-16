@@ -15,6 +15,10 @@ class PilotRepositoryImpl(private val localPilotStore: LocalPilotStore) : PilotR
         return localPilotStore.addPilot(pilot)
     }
 
+    override fun saveList(pilots: List<Pilot>): Completable {
+        return localPilotStore.addPilots(pilots)
+    }
+
     override fun update(pilot: Pilot): Completable {
         return localPilotStore.updatePilot(pilot)
     }

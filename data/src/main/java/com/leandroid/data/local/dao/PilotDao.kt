@@ -15,6 +15,9 @@ interface PilotDao {
     @Insert(onConflict = OnConflictStrategy.IGNORE)
     fun insert(pilot: Pilot): Long
 
+    @Insert(onConflict = OnConflictStrategy.IGNORE)
+    fun insertList(cart: List<Pilot>): List<Long>
+
     @Update(onConflict = OnConflictStrategy.REPLACE)
     fun update(pilot: Pilot): Int
 
