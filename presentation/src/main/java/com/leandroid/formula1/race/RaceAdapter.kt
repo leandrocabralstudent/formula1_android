@@ -17,7 +17,8 @@ class RaceAdapter (var races: List<Race>)
 
     override fun onBindViewHolder(raceViewHolder: RaceViewHolder, i: Int) {
         val card = raceViewHolder.vCardCommomView
-
+        races[i].name?.let { card.setName(it) }
+        races[i].flag?.let { card.setImage(it) }
     }
 
     override fun onCreateViewHolder(viewGroup: ViewGroup, i: Int): RaceViewHolder {

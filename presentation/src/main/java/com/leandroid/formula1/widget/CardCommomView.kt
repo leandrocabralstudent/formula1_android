@@ -31,11 +31,10 @@ class CardCommomView
     }
 
     fun setImage(picutre: String) {
-        Glide
-            .with(context)
+        Glide.with(context)
             .load(picutre)
             .centerCrop()
-            .placeholder(R.drawable.icon_user)
+            .placeholder(R.color.placeholderPicture)
             .into(pictureView)
     }
 }
