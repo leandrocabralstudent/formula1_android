@@ -4,16 +4,17 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.leandroid.domain.model.Champion
 import com.leandroid.domain.model.Pilot
 import com.leandroid.formula1.R
 import com.leandroid.formula1.widget.CardCommomView
 
 
-class ChampionAdapter (var pilots: List<Pilot>)
+class ChampionAdapter (var champions: List<Champion>)
     : RecyclerView.Adapter<ChampionAdapter.ChampionViewHolder>() {
 
     override fun getItemCount(): Int {
-        return pilots.size
+        return champions.size
     }
 
     override fun onBindViewHolder(championViewHolder: ChampionViewHolder, i: Int) {
@@ -23,7 +24,7 @@ class ChampionAdapter (var pilots: List<Pilot>)
 
     override fun onCreateViewHolder(viewGroup: ViewGroup, i: Int): ChampionViewHolder {
         val itemView: View = LayoutInflater.from(viewGroup.context)
-            .inflate(R.layout.race_item, viewGroup, false)
+            .inflate(R.layout.champion_item, viewGroup, false)
         return ChampionViewHolder(itemView)
     }
 

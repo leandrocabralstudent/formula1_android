@@ -14,15 +14,15 @@
         android:layout_width="match_parent"
         android:background="@color/backgroundScreen">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Champion"
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rec_champion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            />
+            tools:listitem="@layout/widget_card_commom_view" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
