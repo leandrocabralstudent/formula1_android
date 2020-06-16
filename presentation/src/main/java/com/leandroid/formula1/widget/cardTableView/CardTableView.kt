@@ -8,7 +8,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.leandroid.domain.model.Pilot
 import com.leandroid.formula1.R
 
-
 class CardTableView
 @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0

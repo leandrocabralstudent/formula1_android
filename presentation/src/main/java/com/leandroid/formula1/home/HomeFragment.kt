@@ -34,6 +34,7 @@ class HomeFragment : Fragment() {
             .observeOn(AndroidSchedulers.mainThread())
             .doOnSuccess { pilots ->
                 val pilotLeader = pilots.first()
+                binding.cardTop.setTitle(getString(R.string.title_widget_card_top))
                 binding.cardTop.setImage(pilotLeader.photo)
                 binding.cardTop.setName(
                     resources.getString(

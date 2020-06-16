@@ -26,6 +26,7 @@ class CardTableViewAdapter(var pilots: List<Pilot>) :
         name.text = pilots[i].name
         point.text = pilots[i].point.toString()
         team.text = pilots[i].team
+
     }
 
     override fun onCreateViewHolder(viewGroup: ViewGroup, i: Int): CardTableViewHolder {

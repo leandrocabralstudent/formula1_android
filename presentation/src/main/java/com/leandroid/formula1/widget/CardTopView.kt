@@ -14,12 +14,17 @@ class CardTopView
     context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
 ) : ConstraintLayout(context, attrs, defStyleAttr) {
 
+    private val titleView by lazy<TextView> { findViewById(R.id.tv_title) }
     private val nameView by lazy<TextView> { findViewById(R.id.tv_name) }
     private val pointView by lazy<TextView> { findViewById(R.id.tv_point) }
     private val pictureView by lazy<ImageView> { findViewById(R.id.iv_picture) }
 
     init {
         inflate(context, R.layout.widget_card_top, this)
+    }
+
+    fun setTitle(title: String?) {
+        titleView.text = title
     }
 
     fun setName(name: String?) {
