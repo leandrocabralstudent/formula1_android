@@ -5,14 +5,19 @@ import com.fasterxml.jackson.databind.PropertyNamingStrategy
 import com.fasterxml.jackson.datatype.threetenbp.ThreeTenModule
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import com.leandroid.data.local.dao.AppDatabase
+import com.leandroid.data.local.implementation.PilotRepositoryImpl
 import com.leandroid.data.local.implementation.RaceRepositoryImpl
+import com.leandroid.data.local.repository.PilotRepository
 import com.leandroid.data.local.repository.RaceRepository
+import com.leandroid.data.local.store.LocalPilotStore
 import com.leandroid.data.local.store.LocalRaceStore
 import com.leandroid.data.network.InterceptorFactory
 import com.leandroid.data.network.OkHttpFactory
 import com.leandroid.data.network.RetrofitFactory
 import com.leandroid.data.network.authentication.interceptor.AuthenticationInterceptor
+import com.leandroid.data.network.pilot.PilotServiceImpl
 import com.leandroid.data.network.race.RaceServiceImpl
+import com.leandroid.data.network.service.PilotService
 import com.leandroid.data.network.service.RaceService
 import org.koin.dsl.module
 import retrofit2.Retrofit
@@ -78,5 +83,20 @@ val dataModule = module {
     single<RaceRepository> {
         RaceRepositoryImpl(get())
     }
+
+    //region Pilot
+    single {
+        LocalPilotStore(get())
+    }
+
+    single<PilotService> {
+        PilotServiceImpl(get())
+    }
+
+    single<PilotRepository> {
+        PilotRepositoryImpl(get())
+    }
+
+    single { PilotServiceImpl(get()) }
 
 }

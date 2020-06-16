@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.FragmentTransaction
 import com.leandroid.formula1.champion.ChampionFragment
 import com.leandroid.formula1.databinding.MainActivityBinding
 import com.leandroid.formula1.home.HomeFragment

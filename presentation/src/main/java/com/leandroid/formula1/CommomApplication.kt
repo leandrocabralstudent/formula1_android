@@ -10,7 +10,10 @@ class CommomApplication : Application(){
         super.onCreate()
         startKoin{
             androidContext(this@CommomApplication)
-            modules(dataModule)
+            modules(listOf(
+                dataModule, presentationModule
+            ))
         }
     }
 }
+
