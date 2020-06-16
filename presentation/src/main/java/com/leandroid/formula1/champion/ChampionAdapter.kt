@@ -19,7 +19,9 @@ class ChampionAdapter (var champions: List<Champion>)
 
     override fun onBindViewHolder(championViewHolder: ChampionViewHolder, i: Int) {
         val card = championViewHolder.vCardCommomView
-
+        champions[i].name?.let { card.setName(it) }
+        champions[i].photo?.let { card.setImage(it) }
+        champions[i].year?.let { card.setYear(it) }
     }
 
     override fun onCreateViewHolder(viewGroup: ViewGroup, i: Int): ChampionViewHolder {
@@ -32,7 +34,6 @@ class ChampionAdapter (var champions: List<Champion>)
         var vCardCommomView: CardCommomView
         init {
             vCardCommomView = v.findViewById(R.id.ccv_champion)
-
         }
     }
 }

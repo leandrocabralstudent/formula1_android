@@ -9,7 +9,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreType
 data class Champion(
     @PrimaryKey val id: Int?,
     val name: String?,
-    val team: String?,
+    val photo: String?,
     val year:String?
 )
 
