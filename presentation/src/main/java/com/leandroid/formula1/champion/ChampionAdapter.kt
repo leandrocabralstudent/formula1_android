@@ -5,10 +5,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.leandroid.domain.model.Champion
-import com.leandroid.domain.model.Pilot
 import com.leandroid.formula1.R
 import com.leandroid.formula1.widget.CardCommomView
-
 
 class ChampionAdapter (var champions: List<Champion>)
     : RecyclerView.Adapter<ChampionAdapter.ChampionViewHolder>() {
