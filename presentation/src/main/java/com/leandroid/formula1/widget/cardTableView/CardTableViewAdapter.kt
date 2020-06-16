@@ -9,8 +9,8 @@ import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.leandroid.domain.model.Pilot
 import com.leandroid.formula1.R
 
-class CardTableViewAdapter(var pilots: List<Pilot>)
-    : RecyclerView.Adapter<CardTableViewAdapter.CardTableViewHolder>() {
+class CardTableViewAdapter(var pilots: List<Pilot>) :
+    RecyclerView.Adapter<CardTableViewAdapter.CardTableViewHolder>() {
 
     override fun getItemCount(): Int {
         return pilots.size
@@ -22,7 +22,7 @@ class CardTableViewAdapter(var pilots: List<Pilot>)
         val point = cardTableViewHolder.vPoint
         val team = cardTableViewHolder.vTeam
 
-        position.text = pilots[i].id.toString()
+        position.text =  "${pilots[i].id} º"
         name.text = pilots[i].name
         point.text = pilots[i].point.toString()
         team.text = pilots[i].team
@@ -45,7 +45,6 @@ class CardTableViewAdapter(var pilots: List<Pilot>)
             vDescricao = v.findViewById(R.id.tv_name)
             vTeam = v.findViewById(R.id.tv_team)
             vPoint = v.findViewById(R.id.tv_point)
-
         }
     }
 }

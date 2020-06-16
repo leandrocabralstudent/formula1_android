@@ -49,7 +49,7 @@ class HomeFragment : Fragment() {
                     )
                 )
 
-                val pilotsOther = pilots.filter { id > 1 }
+                val pilotsOther = pilots.filter { pilot -> pilot.id != 1 }
                 binding.cardTable.mountList(pilotsOther)
 
             }.doOnError { error ->

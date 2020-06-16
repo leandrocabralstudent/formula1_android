@@ -6,7 +6,8 @@
     <string name="point_widget_card_top">%d pts - %s</string>
 
     <string name="title_position_card_table">Posição</string>
-    <string name="title_point_card_table">Pontos</string>
+    <string name="title_point_card_table">Pts</string>
     <string name="title_pilot_card_table">Piloto</string>
     <string name="title_team_card_table">Equipe</string>
+    <string name="position_card_table">%sº</string>
 </resources>
