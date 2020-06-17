@@ -40,7 +40,7 @@ class CardTopView
             .with(context)
             .load(picture)
             .centerCrop()
-            .placeholder(R.drawable.icon_user)
+            .placeholder(R.color.placeholderPicture)
             .into(pictureView)
     }
 
