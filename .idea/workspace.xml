@@ -22,36 +22,22 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_adapter_rxjava2_2_9_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_1_3_0_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_koin_koin_android_architecture_0_9_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_koin_koin_android_architecture_0_9_0_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_koin_koin_android_ext_2_1_5_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_koin_koin_android_ext_2_1_5_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_koin_koin_android_scope_2_1_5_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_koin_koin_android_scope_2_1_5_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_koin_koin_android_viewmodel_2_1_5_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_koin_koin_android_viewmodel_2_1_5_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_3_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/data/data.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/data/data.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/view/presentation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/view/presentation.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/data/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/leandroid/data/network/champion/ChampionServiceImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/com/leandroid/data/network/champion/ChampionServiceImpl.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/leandroid/data/network/champion/RemoteChampionService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/com/leandroid/data/network/champion/RemoteChampionService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/leandroid/data/network/pilot/PilotServiceImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/com/leandroid/data/network/pilot/PilotServiceImpl.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/leandroid/data/network/pilot/RemotePilotService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/com/leandroid/data/network/pilot/RemotePilotService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/leandroid/data/network/race/RaceServiceImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/com/leandroid/data/network/race/RaceServiceImpl.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/leandroid/data/network/race/RemoteRaceService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/com/leandroid/data/network/race/RemoteRaceService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/leandroid/data/network/service/ChampionService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/com/leandroid/data/network/service/ChampionService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/leandroid/data/network/service/PilotService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/com/leandroid/data/network/service/PilotService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/leandroid/data/network/service/RaceService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/com/leandroid/data/network/service/RaceService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/leandroid/data/DataModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/com/leandroid/data/DataModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/src/main/java/com/leandroid/formula1/PresentationModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/java/com/leandroid/formula1/PresentationModule.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/presentation/src/main/java/com/leandroid/formula1/champion/ChampionFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/java/com/leandroid/formula1/champion/ChampionFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/src/main/java/com/leandroid/formula1/champion/ChampionViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/java/com/leandroid/formula1/champion/ChampionViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/src/main/java/com/leandroid/formula1/home/HomeViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/java/com/leandroid/formula1/home/HomeViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/src/main/java/com/leandroid/formula1/race/RaceFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/java/com/leandroid/formula1/race/RaceFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/src/main/java/com/leandroid/formula1/race/RaceViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/java/com/leandroid/formula1/race/RaceViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/src/main/java/com/leandroid/formula1/more/MoreFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/java/com/leandroid/formula1/more/MoreFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/src/main/java/com/leandroid/formula1/splash/SplashScreenActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/java/com/leandroid/formula1/splash/SplashScreenActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/src/main/res/layout/activity_splash_screen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/res/layout/splash_activity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/src/main/res/layout/more_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/res/layout/more_fragment.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,10 +63,10 @@
         <option value="Kotlin Object" />
         <option value="Kotlin File" />
         <option value="Kotlin Interface" />
-        <option value="Kotlin Class" />
         <option value="layoutResourceFile" />
         <option value="valueResourceFile" />
         <option value="resourceFile" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -102,6 +88,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="0054309527" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-07-28T18:14:39.100Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
@@ -121,6 +109,9 @@
       <recent name="com.leandroid.formula1.widget.cardTableView" />
       <recent name="com.leandroid.data.network.service" />
       <recent name="com.leandroid.formula1.splash" />
+    </key>
+    <key name="android.template.-1412310993">
+      <recent name="com.leandroid.formula1.info" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Curso\AndroidStudioProjects\formula1\presentation\src\main\res\font" />
@@ -285,30 +276,30 @@
     </state>
     <state x="2106" y="275" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591711386471" />
     <state x="620" y="74" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1592352015020" />
-    <state width="1323" height="213" key="GridCell.Tab.0.bottom" timestamp="1594248096706">
+    <state width="1171" height="165" key="GridCell.Tab.0.bottom" timestamp="1595962118513">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="213" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1594248096706" />
     <state width="1877" height="108" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591632938751" />
-    <state width="1323" height="164" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592352404292" />
-    <state width="1323" height="213" key="GridCell.Tab.0.center" timestamp="1594248096706">
+    <state width="1171" height="165" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595962118513" />
+    <state width="1171" height="165" key="GridCell.Tab.0.center" timestamp="1595962118513">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="213" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1594248096706" />
     <state width="1877" height="108" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591632938750" />
-    <state width="1323" height="164" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592352404292" />
-    <state width="1323" height="213" key="GridCell.Tab.0.left" timestamp="1594248096706">
+    <state width="1171" height="165" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595962118513" />
+    <state width="1171" height="165" key="GridCell.Tab.0.left" timestamp="1595962118513">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="213" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1594248096706" />
     <state width="1877" height="108" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591632938750" />
-    <state width="1323" height="164" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592352404292" />
-    <state width="1323" height="213" key="GridCell.Tab.0.right" timestamp="1594248096706">
+    <state width="1171" height="165" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595962118513" />
+    <state width="1171" height="165" key="GridCell.Tab.0.right" timestamp="1595962118513">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="213" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1594248096706" />
     <state width="1877" height="108" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591632938751" />
-    <state width="1323" height="164" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592352404292" />
+    <state width="1171" height="165" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595962118513" />
     <state width="1323" height="172" key="GridCell.Tab.1.bottom" timestamp="1594242270574">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -353,10 +344,10 @@
     <state x="2073" y="249" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1591363901106" />
     <state x="2073" y="249" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591791578215" />
     <state x="503" y="174" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1592250380558" />
-    <state x="467" y="83" width="673" height="563" key="find.popup" timestamp="1592349924850">
+    <state x="467" y="83" width="673" height="563" key="find.popup" timestamp="1595953681760">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="2022" y="118" width="607" height="804" key="find.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1591555498434" />
-    <state x="467" y="83" width="673" height="563" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1592349924850" />
+    <state x="467" y="83" width="673" height="563" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1595953681760" />
   </component>
 </project>

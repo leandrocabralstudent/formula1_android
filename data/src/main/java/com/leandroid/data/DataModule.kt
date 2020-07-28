@@ -19,9 +19,11 @@ import com.leandroid.data.network.OkHttpFactory
 import com.leandroid.data.network.RetrofitFactory
 import com.leandroid.data.network.authentication.interceptor.AuthenticationInterceptor
 import com.leandroid.data.network.champion.ChampionServiceImpl
+import com.leandroid.data.network.info.InfoServiceImpl
 import com.leandroid.data.network.pilot.PilotServiceImpl
 import com.leandroid.data.network.race.RaceServiceImpl
 import com.leandroid.data.network.service.ChampionService
+import com.leandroid.data.network.service.InfoService
 import com.leandroid.data.network.service.PilotService
 import com.leandroid.data.network.service.RaceService
 import org.koin.dsl.module
@@ -124,5 +126,10 @@ val dataModule = module {
     }
 
     single { ChampionServiceImpl(get()) }
+
+    //region Info
+    single<InfoService> {
+        InfoServiceImpl(get())
+    }
 
 }
