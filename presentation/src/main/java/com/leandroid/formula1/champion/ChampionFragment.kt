@@ -11,8 +11,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.leandroid.domain.model.Champion
 import com.leandroid.formula1.R
 import com.leandroid.formula1.databinding.ChampionFragmentBinding
-import io.reactivex.android.schedulers.AndroidSchedulers
-import io.reactivex.schedulers.Schedulers
 import org.koin.android.viewmodel.ext.android.viewModel
 
 class ChampionFragment : Fragment() {

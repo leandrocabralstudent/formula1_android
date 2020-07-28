@@ -28,7 +28,7 @@
             app:layout_constraintTop_toBottomOf="@+id/btn_about" />
 
         <com.leandroid.formula1.widget.CommomButton
-            android:id="@+id/btn_policy_about"
+            android:id="@+id/btn_policy_privacidad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
