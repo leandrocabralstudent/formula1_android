@@ -16,7 +16,7 @@ class InfoActivity : AppCompatActivity() {
 
     private  val viewModel : InfoViewModel by viewModel()
     private lateinit var binding: InfoActivityBinding
-    
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.info_activity)
