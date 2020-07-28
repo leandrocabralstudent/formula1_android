@@ -38,7 +38,7 @@ class MoreFragment : Fragment() {
 
         binding.btnPolicyPrivacidad.setOnClickListener {
             var intent = Intent(activity, InfoActivity::class.java)
-            intent.putExtra("INFO_TYPE", "policy")
+            intent.putExtra("INFO_TYPE", "privacyPolicy")
             startActivity(intent)
         }
 

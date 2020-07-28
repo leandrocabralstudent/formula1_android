@@ -14,18 +14,20 @@ import org.koin.android.viewmodel.ext.android.viewModel
 
 class InfoActivity : AppCompatActivity() {
 
-    private  val viewModel : InfoViewModel by viewModel()
+    private val viewModel: InfoViewModel by viewModel()
     private lateinit var binding: InfoActivityBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.info_activity)
 
-        viewModel.getInfo("about")
+        val type = intent.getStringExtra("INFO_TYPE")
+
+        viewModel.getInfo(type)
 
         viewModel.infoLiveData.observe(this, Observer { info ->
-            binding.titleInfo.text= info.title
-            binding.contentInfo.text= info.content
+            binding.titleInfo.text = info.title
+            binding.contentInfo.text = info.content
         })
     }
 }
